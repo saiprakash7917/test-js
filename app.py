@@ -6,8 +6,8 @@ import base64
 import os
 
 # GitHub repository and token details
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Store your token securely in environment variables
-GITHUB_REPO = "your-username/your-repo-name"
+GITHUB_TOKEN = os.getenv("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")  # Store your token securely in environment variables
+GITHUB_REPO = "saiprakash7917/test_git"
 GITHUB_FOLDER = "audio_recordings"
 GITHUB_BRANCH = "main"  # or the branch name where you want to upload
 
