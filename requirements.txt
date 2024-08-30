@@ -5,3 +5,4 @@ google-cloud-speech==2.14.0
 numpy==1.24.2
 scipy==1.11.1
 gtts==2.3.0
+distutils
