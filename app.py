@@ -7,7 +7,11 @@ import wave
 import io
 from gtts import gTTS
 import base64
- 
+import os
+
+# Set the environment variable for Google Cloud credentials
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "D:/DocuChat-RAG-Based-ChatBOT-main/DocuChat-RAG-Based-ChatBOT-main/argon-works-430303-h6-52ae611162a7.json"
+
 # Function to convert audio to mono and adjust sample rate
 def process_audio(wav_data, target_sample_rate=16000):
     with io.BytesIO(wav_data) as byte_io:
