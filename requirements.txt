@@ -1,7 +1,6 @@
-streamlit-audiorec==0.1.3
-streamlit==1.36.0
-requests
-google-cloud-speech==2.14.0
-numpy==1.24.2
-scipy==1.11.1
-gtts==2.3.0
+pip install streamlit==1.18.1
+pip install st-audiorec==0.1.0
+pip install google-cloud-speech==2.14.0
+pip install numpy==1.24.2
+pip install scipy==1.11.1
+pip install gtts==2.3.0
