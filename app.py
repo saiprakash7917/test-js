@@ -7,7 +7,7 @@ import os
 
 # GitHub repository and token details
 GITHUB_TOKEN = "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" # Store your token securely in environment variables
-GITHUB_REPO = "saiprakash7917/test_git"
+GITHUB_REPO = "saiprakash7917/test-py"
 GITHUB_FOLDER = "audio_recordings"
 GITHUB_BRANCH = "main"  # or the branch name where you want to upload
 
